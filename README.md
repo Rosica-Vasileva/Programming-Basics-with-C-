@@ -1,4 +1,4 @@
-# Programming-Basics-with-C-
+# Programming-Basics-with-C#
 # Course Name: Programming Basics
 
 ## Description:
