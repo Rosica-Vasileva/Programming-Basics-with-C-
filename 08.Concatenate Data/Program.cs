@@ -2,7 +2,7 @@
 
 
 
-
+// Rosica Vasileva 32 Sofia
 string firstName = Console.ReadLine();
 string lastName = Console.ReadLine();
 int age = int.Parse(Console.ReadLine()); 
