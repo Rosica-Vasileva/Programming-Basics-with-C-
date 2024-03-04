@@ -20,6 +20,17 @@ Console.WriteLine($"The result of the subtraction is
 {sum}");
 
 // INPUT    OUTPUT
+// 6        24
+// 4
+
+int num1=int.Parse(Console.ReadLine());
+int num2=int.Parse(Console.ReadLine());
+
+int total=num1*num2;
+Console.WriteLine($"The total {total}");
+
+
+// INPUT    OUTPUT
 // 3.2       7.8
 // 4.6
 
