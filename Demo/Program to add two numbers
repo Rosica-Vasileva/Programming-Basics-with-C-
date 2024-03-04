@@ -29,6 +29,16 @@ int num2=int.Parse(Console.ReadLine());
 int total=num1*num2;
 Console.WriteLine($"The total {total}");
 
+// INPUT    OUTPUT
+// 45        9
+// 5
+
+int digit1=int.Parse(Console.ReadLine());
+int digit2=int.Parse(Console.ReadLine());
+
+int total=digit1/digit2;
+Console.WriteLine($"The total{total}");
+
 
 // INPUT    OUTPUT
 // 3.2       7.8
@@ -38,3 +48,43 @@ double num = double.Parse(Console.ReadLine());
 double num1 = double.Parse(Console.ReadLine());
 double sum = num + num1;
 Console.WriteLine($"The sum {sum}");
+
+// INPUT    OUTPUT
+// 9.7       2.2999...
+// 7.4
+
+double num=double.Parse(Console.ReadLine());
+double num1=double.Parse(Console.ReadLine());
+
+double digit=num-num1;
+Console.WriteLine($"Results {digit}");
+
+// INPUT    OUTPUT
+// 5.8      19.72
+// 3.4
+
+double sum=double.Parse(Console.ReadLine());
+double sum1=double.Parse(Console.ReadLine());
+
+double total=sum*sum1;
+Console.WriteLine($"Total {total}");
+
+// INPUT    OUTPUT
+// 9.8      2.88532416..
+// 3.4
+
+double num=double.Parse(Console.ReadLine());
+double num1=double.Parse(Console.ReadLine());
+
+double total=num/num1;
+Console.WriteLine($"The result {total}");
+
+// INPUT    OUTPUT
+// 9.2      1.92
+// 4.8
+
+double num=double.Parse(Console.ReadLine());
+double num1=double.Parse(Console.ReadLine());
+
+double total=num/num1;
+Console.WriteLine($"The result {total.ToString(2)}");
