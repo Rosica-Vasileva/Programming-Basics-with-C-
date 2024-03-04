@@ -1,5 +1,6 @@
-﻿
-
+Input  Output﻿    Input  Output﻿
+5      35         6      48
+7                 8
 
 
 
