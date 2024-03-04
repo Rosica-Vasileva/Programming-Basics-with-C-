@@ -1,9 +1,9 @@
 Input     Output
-550lv.     final price 3432.11 lv.
+550     final price 3432.11 lv.
            discount 753.39lv
   
 Input     Output  
-150lv.     final price 936.03 lv.
+150     final price 936.03 lv.
            discount 205.47v
 
 
