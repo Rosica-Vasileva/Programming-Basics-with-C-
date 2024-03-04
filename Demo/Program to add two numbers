@@ -1,1 +1,31 @@
+Input   Output
+4       13
+9
 
+int number=int.Parse(Console.ReadLine());
+int number1=int.Parse(Console.ReadLine());
+
+int sum=number+number1;
+Console.WriteLine($"The sum {sum}");
+
+
+Input    Output
+10       7
+3
+
+int digit=int.Parse(Console.ReadLine());
+int digit1=int.Parse(Console.ReadLine());
+
+int sum=digit-digit1;
+Console.WriteLine($"The result of the subtraction is
+{sum}");
+
+
+Input    Output
+3.2      7.8
+4.6
+
+double num = double.Parse(Console.ReadLine());
+double num1 = double.Parse(Console.ReadLine());
+double sum = num + num1;
+Console.WriteLine($"The sum {sum}");
