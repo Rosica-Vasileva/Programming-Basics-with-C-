@@ -20,3 +20,15 @@ int sickids = int.Parse(Console.ReadLine());
 
 int holiday = kids4B + kids4C - sickids;
 Console.WriteLine($"Total {holiday}");
+
+// INPUT   OUTPUT
+// 15       45
+// 18       3240
+// 12       15
+
+int magic=int.Parse(Console.ReadLine());
+int element=int.Parse(Console.ReadLine());
+int energy=int.Parse(Console.ReadLine());
+
+int total=magic+element+energy;
+Console.WriteLine($"{total}");
