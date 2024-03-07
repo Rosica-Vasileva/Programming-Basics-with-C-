@@ -32,3 +32,30 @@ int energy=int.Parse(Console.ReadLine());
 
 int total=magic+element+energy;
 Console.WriteLine($"{total}");
+
+// INPUT   OUTPUT                    // INPUT   OUTPUT
+// 20      Master of Elements        // 18        92
+// 20                                // 20 
+// 20                                // 19
+// 20                                // 17
+// 20                                // 18
+
+
+int fire = int.Parse(Console.ReadLine());
+int water = int.Parse(Console.ReadLine());
+int air = int.Parse(Console.ReadLine());
+int earth = int.Parse(Console.ReadLine());
+int ether = int.Parse(Console.ReadLine());
+
+int total = fire + water + air + earth + ether;
+Console.WriteLine($"Overall assessment: {total}");
+
+if (fire == 20 && water == 20 && air == 20 && earth == 20 && ether == 20)
+{
+    Console.WriteLine("Master of Elements!");
+}
+else if (total == 100)
+{
+    Console.WriteLine("Master of All Elements!");
+
+
