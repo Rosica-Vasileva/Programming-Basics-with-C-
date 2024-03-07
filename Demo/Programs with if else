@@ -1,0 +1,53 @@
+//Input      Output
+//x<18       A minor
+//X<=18/65   Аdult
+//x>65       Retired
+
+
+int age = int.Parse(Console.ReadLine());
+if (age < 18)
+Console.WriteLine("A minor");
+
+else if (age >= 18 && age <= 65)
+    Console.WriteLine("Adult");
+
+else
+    Console.WriteLine("Retired");
+
+
+//Input             Input
+//Mathematics  5  //Very good or excellent!
+//Bulgarian    6  //Very good!
+//English      4  //Average success!
+//History      6
+//Geography    5
+
+int mathGrade = int.Parse(Console.ReadLine());
+int bulgarianGrade = int.Parse(Console.ReadLine());
+int englishGrade = int.Parse(Console.ReadLine());
+int historyGrade = int.Parse(Console.ReadLine());
+int geographyGrade = int.Parse(Console.ReadLine());
+
+double averageGrade = (mathGrade + bulgarianGrade + englishGrade + historyGrade + geographyGrade) / 5.0;
+
+Console.WriteLine($"Averagegrade {averageGrade}.");
+
+if (averageGrade >= 5)
+{
+    Console.WriteLine("Very good or excellent!");
+}
+
+else if (averageGrade >= 4)
+{
+    Console.WriteLine("Very good!");
+}
+
+else if (averageGrade >= 3)
+{
+    Console.WriteLine("Average success!");
+}
+
+else
+{
+    Console.WriteLine("Poor success!");
+}
