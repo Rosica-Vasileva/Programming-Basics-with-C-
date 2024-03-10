@@ -18,3 +18,7 @@ double dessertPrice = 0.2 * totalMenuPrice;
 double deliveryPrice = 2.5;
 double totalPrice = totalMenuPrice + dessertPrice + deliveryPrice;
 Console.WriteLine($"{totalPrice:F2}");
+
+
+
+
