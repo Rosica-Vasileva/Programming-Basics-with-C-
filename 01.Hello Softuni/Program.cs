@@ -1,5 +1,5 @@
-Input
-Hello SoftUni
+//Input
+//Hello SoftUni
 
 Console.Write("Hello SoftUni");
 Console.WriteLine("Hello SoftUni");
