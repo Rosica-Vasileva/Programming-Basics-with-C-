@@ -1,6 +1,7 @@
 ﻿
 
-//entrance 5  and exit 12.7 entrance 7 and exit 17.8
+//INPUT  //OUTPUT  //INPUT   //OUTPUT
+//5     //12.7     //7      // 17.8
 
 double inches = double.Parse(Console.ReadLine());
 double centimeters = inches * 2.54;
