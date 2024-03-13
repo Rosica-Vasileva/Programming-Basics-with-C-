@@ -1,8 +1,9 @@
-﻿
+﻿         //INPUT  //OUTPUT   //INPUT   //OUTPUT
+        // 365    811.76     550       1223.2
       
 
 
-int yearlyFee = int.Parse(Console.ReadLine());
+         int yearlyFee = int.Parse(Console.ReadLine());
 
         double basketballShoesPrice = yearlyFee - (yearlyFee * 0.40);
         double basketballKitPrice = basketballShoesPrice - (basketballShoesPrice * 0.20);
